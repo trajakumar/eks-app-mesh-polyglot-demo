@@ -19,7 +19,7 @@ app.get("/catalogDetail", (req, res, next) => {
         console.log("Catalog Detail Get Request Successful");
         res.json({
                  "version":"1",
-                 "vendors":[ "ABC.com" ]
+                 "vendors":[ "ABC.com","XYZ.com","atoz.com" ]
                   } )
     } else {
         console.log("Catalog Detail Get Request has error 500");
